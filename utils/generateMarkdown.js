@@ -9,14 +9,17 @@ function generateMarkdown(data) {
   ## Table of Contents
     * [Installation](#installation)
     * [Usage](#usage)
-    * [Credits](#credit)
+    * [Credits](#credits)
     * [License](#license)
-    * [Contributing](#needtoknowcontribute)
-    * [Tests](#runtest)
-    * [Questions](#question)
+    * [Contributing](#contribution)
+    * [Tests](#test)
+    * [Questions](#questions)
     
   ## Installation 
   ${data.installation}
+
+  ## Tests 
+  ${data.test}
 
   ## Usage 
   ${data.usage}
@@ -32,9 +35,6 @@ function generateMarkdown(data) {
 
   ## Contribution 
   ${data.needtoknowcontribute}
-
-  ## Tests 
-  ${data.test}
 
   ## Questions 
   ${data.question}
