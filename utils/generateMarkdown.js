@@ -1,34 +1,44 @@
 function generateMarkdown(data) {
 
-  return `[![NPM Version](https://img.shields.io/npm/v/npm.svg?style=flat)]();
-  # ${data.project}
-  ## ${data.description}
+  return `
+  # ${data.title}
+
+  ## Description
+    ${data.description}
+    
   ## Table of Contents
-    * [Installation](#install)
+    * [Installation](#installation)
     * [Usage](#usage)
+    * [Credits](#credit)
     * [License](#license)
     * [Contributing](#needtoknowcontribute)
     * [Tests](#runtest)
-    * [Questions](#needtoknowuse)
+    * [Questions](#question)
     
   ## Installation 
-  ${data.install}
+  ${data.installation}
 
   ## Usage 
   ${data.usage}
 
+  ## Credits 
+  ${data.credit}
+  
   ## License 
   ${data.license}
+
+  ## Badges
+  [![NPM Version](https://img.shields.io/npm/v/npm.svg?style=flat)]()
 
   ## Contribution 
   ${data.needtoknowcontribute}
 
   ## Tests 
-  ${data.runtest}
+  ${data.test}
 
   ## Questions 
-  ${data.needtoknowuse}
-  
+  ${data.question}
+  ${data.email}
   `;
 }
 

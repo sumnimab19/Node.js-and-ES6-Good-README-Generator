@@ -20,13 +20,37 @@ const questions = [
       },
       {
         type: "input",
-        name: "project",
-        message: "What is your Project's Name?"
+        name: "title",
+        message: "What is your Project Title?"
       },
       {
         type: "input",
         name: "description",
         message: "Please write a short description of your project."
+      },
+      {
+        type: "input",
+        name: "installation",
+        message: "What command should be run to install dependencies?"
+        // (npm i)
+      },
+      {
+        type: "input",
+        name: "test",
+        message: "What command should be run to test?"
+        // (npm test)
+      },
+      {
+        type: "input",
+        name: "usage",
+        message: "What is the usage?"
+      },
+
+
+      {
+        type: "input",
+        name: "credit",
+        message: "Who is/are the collaborators, if any?"
       },
       {
         type: "checkbox",
@@ -42,35 +66,24 @@ const questions = [
       },
       {
         type: "input",
-        name: "install",
-        message: "What command should be run to install dependencies?"
-        // (npm i)
-      },
-      {
-        type: "input",
-        name: "runtest",
-        message: "What command should be run to run tests?"
-        // (npm test)
-      },
-      {
-        type: "input",
-        name: "needtoknowuse",
-        message: "What does the user need to know about using the repo?"
-      },
-      {
-        type: "input",
         name: "needtoknowcontribute",
         message: "What does the user need to know about contributing to the repo?"
-      }
+      },
+      {
+        type: "input",
+        name: "question",
+        message: "How to reach out to the Author should you have any questions?"
+      },
 ];
 
 function writeToFile(fileName, data) {
 
-  let readMe = generateMarkdown(data);
+  const readMe = generateMarkdown(data);
   fs.writeFile(fileName, readMe, err => {
      if (err) {
        throw err;
      }
+     console.log("Success!");
  });
 }
 
