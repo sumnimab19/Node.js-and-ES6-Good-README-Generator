@@ -2,7 +2,7 @@
   # ReadMe Generator
 
   ## Description
-    Create a command-line application that dynamically generates a README.md from a user's input.
+    This program creates a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with node index.js command.
     
   ## Table of Contents
   * [Installation](#installation)
@@ -20,10 +20,11 @@
 
   ## Tests 
   To run tests, run the following command:
+  
   npm test
 
   ## Usage 
-  The user will be prompted for their GitHub username and other information pertaining to the project the README is for.
+  When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project. A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
 
   ## Credits 
   Sumnima Bhandari
@@ -35,7 +36,7 @@
   [![NPM Version](https://img.shields.io/npm/v/npm.svg?style=flat)]()
 
   ## Contribution 
-  None
+  none
 
   ## Questions 
   Author can be reached via email

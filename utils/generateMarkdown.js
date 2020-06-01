@@ -7,13 +7,13 @@ function generateMarkdown(data) {
     ${data.description}
     
   ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Credits](#credits)
-    * [License](#license)
-    * [Contribution](#contribution)
-    * [Tests](#tests)
-    * [Questions](#questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
+  * [Contribution](#contribution)
+  * [Tests](#tests)
+  * [Questions](#questions)
     
   ## Installation 
   To install necessary dependencies, run the following command:
