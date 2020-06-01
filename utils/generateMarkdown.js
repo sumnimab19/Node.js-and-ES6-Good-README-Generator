@@ -16,9 +16,13 @@ function generateMarkdown(data) {
     * [Questions](#questions)
     
   ## Installation 
+  To install necessary dependencies, run the following command:
+  
   ${data.installation}
 
   ## Tests 
+  To run tests, run the following command:
+  
   ${data.test}
 
   ## Usage 
@@ -28,7 +32,7 @@ function generateMarkdown(data) {
   ${data.credit}
   
   ## License 
-  ${data.license}
+  This project is licensed under ${data.license} license.
 
   ## Badges
   [![NPM Version](https://img.shields.io/npm/v/npm.svg?style=flat)]()
