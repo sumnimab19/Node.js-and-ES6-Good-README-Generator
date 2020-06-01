@@ -31,22 +31,20 @@ const questions = [
       {
         type: "input",
         name: "installation",
-        message: "What command should be run to install dependencies?"
-        // (npm i)
+        message: "What command should be run to install dependencies?", 
+        default: "npm i"
       },
       {
         type: "input",
         name: "test",
-        message: "What command should be run to test?"
-        // (npm test)
+        message: "What command should be run to test?",
+        default: "npm test"
       },
       {
         type: "input",
         name: "usage",
         message: "What is the usage?"
       },
-
-
       {
         type: "input",
         name: "credit",
