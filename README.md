@@ -33,13 +33,5 @@ AS A developer, I WANT a README generator SO THAT I can easily put together a go
 
 ## GIFs
 
-![Uploading readme1.gif…]()
-
-![Uploading readme2.gif…]()
-
-![Uploading readme3.gif…]()
-
-
-
 
 
