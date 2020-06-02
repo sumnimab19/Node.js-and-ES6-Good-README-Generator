@@ -32,7 +32,8 @@ AS A developer, I WANT a README generator SO THAT I can easily put together a go
 
 
 ## GIFs
-Please see utils folder for video demo of ReadMe creation.
+![Uploading readme.gif…]()
+
 
 
 
