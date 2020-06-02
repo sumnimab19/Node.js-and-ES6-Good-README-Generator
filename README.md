@@ -30,6 +30,9 @@ AS A developer, I WANT a README generator SO THAT I can easily put together a go
 1. node js
 2. Javascript
 
+## GIF
+![readme](https://user-images.githubusercontent.com/55207625/83482392-0b7ae400-a455-11ea-8af1-c9243a1716b2.gif)
+
 
 
 
